@@ -16,7 +16,7 @@
 				<th>Имя</th>
 			</thead>
 			<tbody>
-				<tr v-for="item in users" @click="users[0].id=3">
+				<tr v-for="item in users" @click="myClick()">
 					<td>{{item.id}}</td>
 					<td>{{item.name}}</td>
 				</tr>
@@ -40,7 +40,7 @@
 			},
 			methods: {
 				myClick(){
-					alert(1)
+					alert('1');
 				}
 
 
