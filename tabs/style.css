@@ -1,0 +1,28 @@
+.tab{
+  display: inline-block;
+  height: 30px;
+  width: 50px;
+  border: 1px solid black; 
+  line-height: 30px;
+  text-align: center;
+  background: #ааа;  
+}
+.tabs-body{  
+   /* margin-top: -2px; */ 
+}
+.tab-body{
+  position: absolute;
+  top: 37px;
+  display: none;
+  height: 300px;
+  width: 500px;
+  padding: 10px;
+  /* border: 1px solid black; */
+  background: #E8DADA
+}
+.tabBodyActive{
+  display: block;
+}
+.tabActive{
+  border-bottom: none;
+  background: #E8DADA;
