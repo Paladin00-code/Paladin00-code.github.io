@@ -1,0 +1,127 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	/* Style for "Background" */
+	height: 101px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+	border: 1px solid #ececec;
+}
+
+.brand {
+	display: block;
+	/* Style for "BRAND" */
+	width: 93px;
+	height: 19px;
+	color: #222222;
+	font-family: sans-serif;
+	font-size: 27px;
+	font-weight: 300;
+	line-height: 32px;
+	font-weight: 300;
+	letter-spacing: 0.68px;
+}
+
+.conteiner {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.box-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.logo {
+	/* Style for "BRAND" */
+	float: left;
+	color: #222222;
+	font-family: sans-serif;
+	font-size: 27px;
+	font-weight: 300;
+	/*line-height: 32px;	*/
+	letter-spacing: 0.68px;
+	text-decoration: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+
+img {
+	margin-right: 10px;
+}
+
+.logo span {
+	/* Text style for "D" */
+	color: #f16d7f;
+	font-weight: 400;
+	letter-spacing: 0.68px;
+}
+
+.box-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 101px;
+}
+
+.my_acc {
+	/* Style for "Button" in the header */
+	width: 133px;
+	height: 41px;
+	background-color: #f16d7f;
+	/* Style for "My Account" */
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 32px;
+	/* Text style for "M, y Accou" */
+	letter-spacing: 0.38px;
+}
+
+.nav {
+	height: 54px;
+}
+
+.nav ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+	width: 880px;
+	margin: 0 auto;
+}
+
+.nav li {
+	margin: 0 15px;
+	line-height: 54px;
+}
+
+.nav a {
+	/* Style for "Home" */
+	color: #222222;
+	font-family: s;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+	padding: 17px 7px;
+	text-decoration: none;
+}
+
+.active-link{
+	border-bottom: 3px solid #ef5b70;;
+}
