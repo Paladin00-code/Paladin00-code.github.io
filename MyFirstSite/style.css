@@ -122,6 +122,10 @@ img {
 	text-decoration: none;
 }
 
-.active-link{
-	border-bottom: 3px solid #ef5b70;;
+/* .active-link{
+	border-bottom: 3px solid #ef5b70;
+} */
+
+.nav a:hover{
+	border-bottom: 3px solid #ef5b70;
 }
