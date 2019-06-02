@@ -14,11 +14,12 @@
 	width: 1200px;
 	margin: 0 auto;
 	padding: 0 30px;
+
 }
 
 .logo {
 	/* Style for "BRAND" */
-	float: left;
+	/* float: left; */
 	color: #222222;
 	font-family: sans-serif;
 	font-size: 27px;
@@ -115,41 +116,84 @@
 }
 
 /* =============================================== */
-
-.slider {
+.slider-background {
 	/* Style for "Layer 24" */
+	width: 100%;
+	height: 665px;
 	background-color: #e8e8e8;
-	line-height: 50px;
+	position: absolute;
+	top: 155px;
 }
 
-.slider img {
-	display: table;
-	margin: 0 15% 0 auto;	
+.wrap {
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 30px;
 }
 
-.slider .text-block {
-	width: 485px;
-	height: 90px;
+.wrap img {
+	margin: auto;
+	justify-content: center;
+}
+
+.wrap .text-block {
+	width: 48em;
 	font-family: sans-serif;
-	font-weight: 400;
-	vertical-align: middle;	
-	/* top: 50%; */
-	left: 50px;
+	position: absolute;
+	top: 35%;
+	/* margin-left: 17%;	 */
 	text-transform: uppercase;
 	border-left: 8px solid #f16d7f;
 	padding-left: 5px;
-	
+
 }
 
-.slider h1 {
+.wrap h1 {
 	font-size: 60px;
 	color: #222222;
 }
 
-.slider h2 {
+.wrap h2 {
 	font-size: 35px;
 }
 
 .slider h2 span {
 	color: #f16d7f;
+}
+
+/* =============================================================== */
+
+.block-4-img {
+	columns: 2;
+	margin-top: 100px;
+}
+
+.img-block-2 {
+	position: relative;
+	padding-bottom: 40px;
+}
+
+.baidge {
+	display:table-cell;
+	position: absolute;
+	/* height: 82px; */
+	background-color: #fff;
+	padding-bottom: 25px;
+	top: 26px;
+	color: #222222;
+	font-family: sans-serif;
+	font-size: 20px;
+	/* font-weight: 60px; */
+	text-transform: uppercase;
+	/* Text style for "hOT dEAL" */
+	letter-spacing: 0.45px;
+	border: #c0c0c0	0.3px solid;
+}
+
+.baidge span {
+	color: #f16d7f;
+	font-size: 30px;
+	letter-spacing: 0.75px;
+	text-transform: uppercase;
 }
